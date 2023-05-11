@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>250</y><w>390</w><h>30</h></coordinates><panel_attributes>MODIFICADOR  DE ACCESO PROTECTED</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>290</y><w>100</w><h>60</h></coordinates><panel_attributes>Modificador
+--
+protected ( # )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>290</y><w>50</w><h>60</h></coordinates><panel_attributes>Misma 
+Clase
+--
+SÍ</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>290</y><w>60</w><h>60</h></coordinates><panel_attributes>Mismo
+Paquete
+--
+SÍ</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>290</y><w>60</w><h>60</h></coordinates><panel_attributes>Subclase
+--
+Si</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>290</y><w>80</w><h>60</h></coordinates><panel_attributes>Todas las 
+demás
+--
+No</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>400</y><w>110</w><h>70</h></coordinates><panel_attributes>Clase1
+--
++id atributo
+--
++metodo()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>360</y><w>100</w><h>30</h></coordinates><panel_attributes>paquete1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>400</y><w>110</w><h>30</h></coordinates><panel_attributes>Clase3
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>450</y><w>110</w><h>30</h></coordinates><panel_attributes>Clase4
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>360</y><w>100</w><h>30</h></coordinates><panel_attributes>paquete2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>370</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>490</y><w>190</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>380</y><w>30</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>380</y><w>40</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>20;10;18;130</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>380</y><w>40</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>20;10;18;130</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>490</y><w>170</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;148;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>480</y><w>80</w><h>20</h></coordinates><panel_attributes>Clase2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>380</y><w>40</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>20;10;18;130</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>370</y><w>70</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;48;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>390</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element></diagram>
