@@ -1,0 +1,46 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>10</x><y>80</y><w>480</w><h>630</h></coordinates><panel_attributes>EmptyPackage
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>120</y><w>210</w><h>240</h></coordinates><panel_attributes>conexion
+--
+__-DATABASE: String__
+__-USERNAME: String__
+__-PASSWORD: String__
+__-DB PORT: String__
+__-HOST: String__
+__-conexion: connection__
+__-cursor: Cursor__
+--
++obtenerConexion(cls): Connection
++obtenerCursor(cls): Cursor
++cerrar(cls)
+--
+Responsibilities
+Administrar la conexión a la base
+de datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>Persona
+--
+-id_persona: int
+-nombre: String
+-apellido: String
+-email: String
+--
++__str__(): String
++metodo Get/Set de cada atributo
+--
+Responsibilities
+Crear objetos de la entidad de
+Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>440</y><w>210</w><h>220</h></coordinates><panel_attributes>PersonaDato
+--
+__-SELECCIONAR: String__
+__-INSERTAR: String__
+__-ACTUALIZAR: String__
+__-ELIMINAR: String__
+--
++seleccionar(cls)
++insertar(cls, Persona)
++actualizar(cls, Persona)
++eliminar(cls, Persona)
+--
+Responsibilities
+Realizar las operaciones sobre la
+base de datos de la identidad
+Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>350</y><w>150</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>130;200;10;200;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>300</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element></diagram>
