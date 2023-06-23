@@ -1,5 +1,36 @@
-01:50:45 PM:DEBUG [logger_base.py:16] Mensaje a nivel debug
-01:50:45 PM:INFO [logger_base.py:17] Mensaje a nivel info
-01:50:45 PM:WARNING [logger_base.py:18] Mensaje a nivel warning
-01:50:45 PM:ERROR [logger_base.py:19] Mensaje a nivel error
-01:50:45 PM:CRITICAL [logger_base.py:20] Mensaje a nivel critical
+06:31:13 PM:DEBUG [logger_base.py:16] Mensaje a nivel debug
+06:31:13 PM:INFO [logger_base.py:17] Mensaje a nivel info
+06:31:13 PM:WARNING [logger_base.py:18] Mensaje a nivel warning
+06:31:13 PM:ERROR [logger_base.py:19] Mensaje a nivel error
+06:31:13 PM:CRITICAL [logger_base.py:20] Mensaje a nivel critical
+06:31:24 PM:DEBUG [Persona.py:54] 
+            id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+06:31:24 PM:DEBUG [Persona.py:56] 
+            id Persona: None,
+            Nombre: Juan,
+            Apellido: Lopez,
+            Email: ljose@mail.com
+        
+06:34:40 PM:DEBUG [Persona.py:54] 
+            id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+06:34:40 PM:DEBUG [Persona.py:56] 
+            id Persona: None,
+            Nombre: Juan,
+            Apellido: Lopez,
+            Email: ljose@mail.com
+        
+06:34:40 PM:DEBUG [Persona.py:58] 
+            id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+07:06:05 PM:ERROR [conexion.py:27] Ocurrio un error: type object 'Conexion' has no attribute '_BD_PORT'
