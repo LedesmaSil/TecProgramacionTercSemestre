@@ -19,7 +19,7 @@ class Conexion:
                 cls._conexion = bd.connect(host=cls._HOST,
                                            user=cls._USERNAME,
                                            password=cls._PASSWORD,
-                                           port=cls._BD_PORT,
+                                           port=cls._DB_PORT,
                                            database=cls._DATABASE)
                 log.debug(f'Conexion Exitosa: {cls._conexion}')
                 return cls._conexion
