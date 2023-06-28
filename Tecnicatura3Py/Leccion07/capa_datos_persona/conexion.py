@@ -3,6 +3,7 @@ from psycopg2 import pool
 from logger_base import log
 import sys
 
+
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
@@ -19,9 +20,7 @@ class Conexion:
         log.debug(f'Conexión obtenida del pool: {conexion}')
         return conexion
 
-    @classmethod
-    def obtenerCursor(cls):
-        pass
+
 
     @classmethod
     def obtenerPool(cls):
@@ -42,9 +41,26 @@ class Conexion:
         else:
             return cls._pool
 
+    @classmethod
+    def liberarConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexion del pool: {conexion}')
+
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall()
+
+
+
 if __name__ == ' __main__ ':
     conexion1 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion1)
     conexion2 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion2)
     conexion3 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion3)
     conexion4 = Conexion.obtenerConexion()
     conexion5 = Conexion.obtenerConexion()
+    conexion6 = Conexion.obtenerConexion()
+
+
